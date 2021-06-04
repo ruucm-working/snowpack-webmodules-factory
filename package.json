@@ -1,0 +1,30 @@
+{
+  "name": "snowpack-webmodules-factory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx snowpack@2.9.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "canvas-confetti": "^1.4.0",
+    "confetti-js": "^0.0.18",
+    "full-page-canvas": "^0.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "snowpack": {
+    "install": [
+      "canvas-confetti",
+      "confetti-js",
+      "full-page-canvas",
+      "react",
+      "react-dom"
+    ]
+  }
+}
